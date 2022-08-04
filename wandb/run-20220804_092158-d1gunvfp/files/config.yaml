@@ -1,0 +1,143 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.21
+    framework: torch
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    python_version: 3.8.13
+    start_time: 1659601318
+    t:
+      1:
+      - 1
+      - 5
+      - 53
+      - 55
+      2:
+      - 1
+      - 5
+      - 53
+      - 55
+      3:
+      - 13
+      4: 3.8.13
+      5: 0.12.21
+      8:
+      - 3
+      - 5
+active_log:
+  desc: null
+  value: true
+attention_dropout:
+  desc: null
+  value: 0.1
+attention_heads:
+  desc: null
+  value: 8
+attentiontype:
+  desc: null
+  value: colrow
+batchsize:
+  desc: null
+  value: 256
+cont_embeddings:
+  desc: null
+  value: MLP
+dset_id:
+  desc: null
+  value: 44
+dset_seed:
+  desc: null
+  value: 1
+dtask:
+  desc: null
+  value: clf
+embedding_size:
+  desc: null
+  value: 32
+epochs:
+  desc: null
+  value: 100
+ff_dropout:
+  desc: null
+  value: 0.1
+final_mlp_style:
+  desc: null
+  value: sep
+lam0:
+  desc: null
+  value: 0.5
+lam1:
+  desc: null
+  value: 10
+lam2:
+  desc: null
+  value: 1
+lam3:
+  desc: null
+  value: 10
+lr:
+  desc: null
+  value: 0.0001
+mixup_lam:
+  desc: null
+  value: 0.3
+nce_temp:
+  desc: null
+  value: 0.7
+optimizer:
+  desc: null
+  value: AdamW
+pretrain:
+  desc: null
+  value: true
+pretrain_epochs:
+  desc: null
+  value: 1
+pt_aug:
+  desc: null
+  value:
+  - cutmix
+pt_aug_lam:
+  desc: null
+  value: 0.1
+pt_projhead_style:
+  desc: null
+  value: diff
+pt_tasks:
+  desc: null
+  value:
+  - contrastive
+  - denoising
+run_name:
+  desc: null
+  value: testrun
+savemodelroot:
+  desc: null
+  value: ./bestmodels
+scheduler:
+  desc: null
+  value: cosine
+set_seed:
+  desc: null
+  value: 1
+ssl_samples:
+  desc: null
+  value: 200
+task:
+  desc: null
+  value: binary
+train_noise_level:
+  desc: null
+  value: 0
+train_noise_type:
+  desc: null
+  value: null
+transformer_depth:
+  desc: null
+  value: 6
+vision_dset:
+  desc: null
+  value: false

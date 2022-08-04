@@ -1,0 +1,37 @@
+{
+    "os": "Windows-10-10.0.19043-SP0",
+    "python": "3.8.13",
+    "heartbeatAt": "2022-08-04T08:22:00.387409",
+    "startedAt": "2022-08-04T08:21:58.438601",
+    "docker": null,
+    "cpu_count": 12,
+    "cuda": null,
+    "args": [
+        "--dset_id",
+        "44",
+        "--task",
+        "binary",
+        "--attentiontype",
+        "colrow",
+        "--pretrain",
+        "--pt_aug",
+        "cutmix",
+        "--ssl_samples",
+        "200",
+        "--pretrain_epochs",
+        "1",
+        "--active_log"
+    ],
+    "state": "running",
+    "program": "train_robust.py",
+    "codePath": "train_robust.py",
+    "git": {
+        "remote": "https://github.com/pbevan1/saint",
+        "commit": "e288e84c77a54cfd2ffb55a53678fb7cbbb16630"
+    },
+    "email": null,
+    "root": "C:/Users/pbs3297/Documents/Python Scripts/saint",
+    "host": "PF30LTLY",
+    "username": "pbs3297",
+    "executable": "C:\\Users\\pbs3297\\Anaconda3\\envs\\saint_environment\\python.exe"
+}
